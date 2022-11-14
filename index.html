@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | DemoMetalitix</title>
+    <title>Unity WebGL Player | MetalitixExample</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">DemoMetalitix</div>
+        <div id="unity-build-title">MetalitixExample</div>
       </div>
     </div>
     <script>
@@ -56,14 +56,14 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/MetalitixPackage.loader.js";
+      var loaderUrl = buildUrl + "/WebGL_Builds.loader.js";
       var config = {
-        dataUrl: buildUrl + "/MetalitixPackage.data",
-        frameworkUrl: buildUrl + "/MetalitixPackage.framework.js",
-        codeUrl: buildUrl + "/MetalitixPackage.wasm",
+        dataUrl: buildUrl + "/WebGL_Builds.data.br",
+        frameworkUrl: buildUrl + "/WebGL_Builds.framework.js.br",
+        codeUrl: buildUrl + "/WebGL_Builds.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "DemoMetalitix",
+        productName: "MetalitixExample",
         productVersion: "0.1.0",
         showBanner: unityShowBanner,
       };
